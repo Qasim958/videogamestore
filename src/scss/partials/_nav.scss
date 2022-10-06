@@ -1,0 +1,19 @@
+.nav {
+  background-color: getColor(navColor);
+  color: getColor(textColor);
+  font-size: 1.8rem;
+  &__container {
+    .navbar-brand{
+      font-size: 3rem;
+      letter-spacing: 0.5rem;
+    }
+    &__menu {
+      ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+      }
+    }
+  }
+}

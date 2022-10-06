@@ -1,0 +1,21 @@
+.home {
+  width: 80%;
+  margin: auto;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem 2rem;
+
+  &__heading {
+    h1 {
+      font-size: 4rem;
+      color: getColor("textColor");
+    }
+  }
+  &__buttons {
+    button {
+    }
+  }
+}

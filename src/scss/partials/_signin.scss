@@ -1,0 +1,17 @@
+.signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+
+  background-color: bisque;
+  &__form {
+    padding: 2rem;
+    width: 60%;
+    form {
+      width: 100%;
+      margin: 2rem;
+    }
+  }
+}
