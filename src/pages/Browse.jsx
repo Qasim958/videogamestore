@@ -17,6 +17,9 @@ const Browse = () => {
         return navigate("/signin", { replace: true });
       } else {
         const res = await getApiData(BASE_DATA_URL, "POST", {
+          'Access-Control-Allow-Origin': '*',
+          Accept: 'application/json',
+          'Content-Type': 'application/json',
           "Client-ID": CLIENT_ID,
           Authorization: `Bearer ${credential.token}`,
         });
