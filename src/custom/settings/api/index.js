@@ -4,10 +4,10 @@
 
 const CORS_URL = "https://cors-anywhere.herokuapp.com/";
 const BASE_AUTH_URL = "https://id.twitch.tv/oauth2/token?";
-const CLIENT_SECRET = "6o27vdo3bm2u8spoy3ferqs4y16tul";
+const CLIENT_SECRET = "ok7fqydcnst3supfy69eodl7tihmw8";
 const GRANT_TYPE = "client_credentials";
 
-export const CLIENT_ID = "ujh9el8115ve3op75yebrhmwo9hu3e";
+export const CLIENT_ID = "9z76uti7ak5suh8wazaxgfxo1vqck6";
 
 export const AUTH_TOKEN_URL = `${BASE_AUTH_URL}client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&grant_type=${GRANT_TYPE}`;
 
